@@ -1,0 +1,791 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link rel="icon" href="images/favicon.png" sizes="16x16" type="image/png">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link rel="stylesheet" href="dist/css/main.css">
+
+        <!-- Owl Carousel CSS -->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+            integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+            integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <title>OTC</title>
+    </head>
+
+    <body>
+        <header>
+            <!-- Element for radial graident on top left -->
+            <div class="radial-bg1"></div>
+
+            <!-- Nav starts here -->
+            <nav class="navbar navbar-expand-lg navbar-transparent bg-transparent">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/main-logo.svg" alt="" width="" height="39">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <img src="../images/Header/Logged in/menu.svg">
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-lg-end" id="navbarNav">
+                        <ul class="navbar-nav align-items-center">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Wallets</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Buy/Sell</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Swap</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Bundles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">OTC</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Markets</a>
+                            </li>
+                            <div class="d-grid gap-2 d-md-block mx-auto">
+                                <button type="button" class="btn btn-primary btn-sm mx-1">Register</button>
+                                <button type="button" class="btn btn-outline-primary btn-sm mx-1">Login</button>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Nav ends here -->
+
+        </header>
+
+        <main class="content">
+            <!-- Hero section starts here -->
+            <section class="hero-container position-relative pb-8 pb-md-7">
+                <img src="images/otc-sec1.svg" alt="" class="purple-planet position-absolute">
+                <img src="images/purple-comet.svg" alt="" class="purple-comet-1 position-absolute">
+                <img src="images/purple-comet.svg" alt="" class="purple-comet-2 position-absolute">
+                <img src="images/cyan-comet.svg" alt="" class="position-absolute cyan-comet">
+                <img src="images/plus-blue.svg" alt="" class="position-absolute plus-blue-1">
+                <img src="images/plus-blue.svg" alt="" class="position-absolute plus-blue-2">
+                <img src="images/plus-blue.svg" alt="" class="position-absolute plus-blue-3">
+                <img src="images/plus-blue.svg" alt="" class="position-absolute plus-blue-4">
+
+                <div class="container hero-section position-relative">
+                    <div class="row my-4 my-md-7 mt-md-9 mb-md-4 align-items-center">
+                        <div
+                            class="hero-col col-md-6 col-sm-12 my-3 my-md-5 d-grid justify-content-md-start justify-content-center align-items-center text-center text-md-start">
+                            <p class="d-block d-md-none otc-sub mt-4">Coinspot Bundles</p>
+                            <h1 class="hero-heading heading-1">Welcome to <br><span class="gradient-text-1">CoinSpot
+                                    OTC</span>
+                            </h1>
+                            <p class="hero-content py-2 mt-4">
+                                Whether new to Bitcoin and cryptocurrency or an experienced trader, the CoinSpot Trading
+                                Desk team can assist with all
+                                aspects of incorporating cryptocurrency into your portfolio.
+                            </p>
+                        </div>
+                        <div
+                            class="otc-card-tab col-md-6 col-sm-12 my-3 my-md-5 px-md-5 d-flex justify-content-center align-items-center">
+                            <div class="card">
+                                <p class="submit-heading">Submit OTC Order</p>
+                                <div class="card-header">
+                                    <ul class="nav nav-tabs card-header-tabs" id="otc-list" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" href="#buy" role="tab" aria-controls="buy"
+                                                aria-selected="true">
+                                                <img src="images/Buy 2.svg" class="img-fluid"> Buy</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#sell" role="tab" aria-controls="sell"
+                                                aria-selected="false"><img src="images/Get_cash.svg" class="img-fluid">
+                                                Sell</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-body">
+                                    <div class="tab-content mt-3">
+                                        <div class="tab-pane active" id="buy" role="tabpanel">
+                                            <form action="">
+                                                <label label-for="currency-select" class="form-label">What would you
+                                                    like to buy?</label>
+                                                <select class="form-select currency-select mb-2 mb-sm-3"
+                                                    aria-label="Default select">
+                                                    <option selected="">Select a currency</option>
+                                                    <option value="1">One</option>
+                                                    <option value="2">Two</option>
+                                                    <option value="3">Three</option>
+                                                </select>
+
+                                                <label label-for="currency-number" class="form-label">How much would you
+                                                    like to buy?</label>
+                                                <div class="how-much">
+                                                    <input class="number currency-number" type="number" value=""
+                                                        placeholder="Enter an amount">
+                                                    <button class="text disabled">AUD</button>
+                                                </div>
+
+                                                <hr>
+                                                <button type="submit"
+                                                    class="btn btn-primary btn-md d-block my-2 w-100 otc-btn">
+                                                    <img src="images/Consultant.svg" alt="" class="img-fluid">
+                                                    Submit order enquiry (Buy)
+                                                </button>
+                                                <button type="submit"
+                                                    class="btn btn-outline-primary btn-md d-block w-100 otc-btn">
+                                                    <img src="images/flash_on.svg" alt="" class="img-fluid">
+                                                    Request Instant Quote
+                                                </button>
+                                            </form>
+
+                                        </div>
+
+                                        <div class="tab-pane" id="sell" role="tabpanel" aria-labelledby="sell-tab">
+                                            <form action="">
+                                                <label label-for="currency-select" class="form-label">What would you
+                                                    like to sell?</label>
+                                                <select class="form-select currency-select mb-2 mb-sm-3"
+                                                    aria-label="Default select">
+                                                    <option selected="">Select a currency</option>
+                                                    <option value="1">One</option>
+                                                    <option value="2">Two</option>
+                                                    <option value="3">Three</option>
+                                                </select>
+
+                                                <label label-for="currency-number" class="form-label">How much would you
+                                                    like to sell?</label>
+                                                <div class="how-much">
+                                                    <input class="number currency-number" type="number" value=""
+                                                        placeholder="Enter an amount">
+                                                    <button class="text" disabled="">AUD</button>
+                                                </div>
+
+                                                <hr>
+                                                <button type="submit"
+                                                    class="btn btn-primary btn-md d-block my-2 w-100 otc-btn">
+                                                    <img src="images/Consultant.svg" alt="" class="img-fluid">
+                                                    Submit order enquiry (Sell)
+                                                </button>
+                                                <button type="submit"
+                                                    class="btn btn-outline-primary btn-md d-block w-100 otc-btn">
+                                                    <img src="images/flash_on.svg" alt="" class="img-fluid">
+                                                    Request Instant Quote
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Hero section ends here -->
+
+                <!-- Radial Gradient for bottom right section -->
+                <div class="radial-bg2"></div>
+            </section>
+
+            <!-- Section #1 What's OTC-->
+            <section
+                class="content-1 whatsotc py-7 py-md-6 pb-6 pb-md-8 my-4 my-md-8 mt-0 mb-md-8 mt-md-4 position-relative">
+                <img src="images/section-2a.svg" alt="" class="section-2a position-absolute">
+                <img src="images/section-2b.svg" alt="" class="section-2b position-absolute">
+                <img src="images/section-2c.svg" alt="" class="section-2c position-absolute">
+                <img src="images/panda.svg" alt="" class="position-absolute panda">
+                <img src="images/zap.svg" alt="" class="position-absolute zap">
+                <img src="images/dollar.svg" alt="" class="position-absolute dollar">
+                <img src="images/dollar.svg" alt="" class="position-absolute dollar-2">
+                <img src="images/otc-app.svg" alt="" class="position-absolute compass">
+                <img src="images/app.svg" alt="" class="position-absolute app"><img src="images/french.svg" alt=""
+                    class="position-absolute french">
+                <img src="images/plus.svg" alt="" class="position-absolute plus-1">
+                <img src="images/plus.svg" alt="" class="position-absolute plus-2">
+                <img src="images/plus.svg" alt="" class="position-absolute plus-3">
+                <img src="images/plus.svg" alt="" class="position-absolute plus-4">
+                <img src="images/plus.svg" alt="" class="position-absolute plus-5">
+                <img src="images/plus.svg" alt="" class="position-absolute plus-6">
+                <img src="images/plus.svg" alt="" class="position-absolute plus-7">
+                <img src="images/plus.svg" alt="" class="position-absolute plus-8">
+                <img src="images/plus.svg" alt="" class="position-absolute plus-9">
+                <img src="images/plus.svg" alt="" class="position-absolute plus-10">
+
+
+                <div class="container-fluid">
+                    <div class="md-row">
+                        <div class="col-sm-12 col-md-7 text-start otc-text my-4 text-white position-relative ps-4 mb-6">
+                            <h2 class="heading-2 pb-4"><span class="gradient-text-1 pt-0 pb-2">What</span> is OTC</h2>
+                            <p class="section-content">
+                                CoinSpot's specialised Over-The-Counter (OTC) Trading Desk allows members to perform
+                                high-volume transactions without
+                                the need of traditional public order books.
+                            </p>
+                        </div>
+                        <div
+                            class="col-lg-10 col-md-12 col-sm-12 text-white position-relative ps-4 pe-2 mx-3 mx-md-2 mx-xl-0 trading-block">
+                            <h2 class="heading-2 trading-block-heading mb-4">
+                                <span class="gradient-text-1">Why</span> use OTC
+                            </h2>
+
+                            <div class="steps row position-relative">
+                                <div class="col-md-4 col-sm-12 position-relative ps-4 ps-sm-3 mb-4 mb-md-0">
+                                    <span class="plus position-absolute">
+                                        <img src="images/plus.svg" class="d-none d-sm-block">
+                                        <hr class="trade-hr-mobile">
+                                    </span>
+                                    <img class="pb-4" src="images/personal.svg">
+                                    <hr class="trade-hr">
+                                    <h3 class="text-light heading-3">Personal service</h3>
+                                    <p class="trade-content">
+                                        Direct access to a professional trading broker for all trading enquiries.
+                                    </p>
+                                </div>
+                                <div class="col-md-4 col-sm-12 position-relative ps-4 ps-sm-3 mb-4 mb-md-0">
+                                    <span class="plus position-absolute">
+                                        <img src="images/plus.svg" class="d-none d-sm-block">
+                                        <hr class="trade-hr-mobile">
+                                    </span>
+                                    <img class="pb-4" src="images/lock.svg">
+                                    <hr class="trade-hr">
+                                    <h3 class="text-light heading-3">Lock-in price</h3>
+                                    <p class="trade-content">
+                                        Use lock-in pricing to eliminate slippage and minimise the risks normally
+                                        associated with high volume trading.
+                                    </p>
+                                </div>
+                                <div class="col-md-4 col-sm-12 position-relative ps-4 ps-sm-3 mb-4 mb-md-0">
+                                    <span class="plus position-absolute"><img src="images/plus.svg"
+                                            class="d-none d-sm-block"></span>
+                                    <img class="pb-4" src="images/easy.svg">
+                                    <h3 class="text-light heading-3">Easy access</h3>
+                                    <p class="trade-content">
+                                        Access all assets instantly after trade settlement.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section #2 Request-->
+            <section class="content-2 request py-5 py-md-8 pb-5 pb-md-8 py-lg-10 position-relative">
+                <img src="images/purple-comet.svg" alt="" class="purple-comet-2 position-absolute">
+                <img src="images/cyan-comet.svg" alt="" class="position-absolute cyan-comet">
+                <img src="images/request-planet-a.svg" alt="" class="d-none d-md-block position-absolute planet-a" />
+                <img src="images/request-planet-b.svg" alt="" class="d-none d-md-block position-absolute planet-b" />
+                <div class="container-fluid">
+                    <div class="row justify-content-center align-items-center">
+
+                        <div class="col-sm-12 col-lg-12 text-center industry mx-auto pb-2">
+                            <h2 class="heading-2 pb-2 pb-sm-4 text-start text-sm-center ps-4 ps-sm-0">
+                                <span class="gradient-text-1 d-none d-sm-inline">How
+                                    to</span><span class="d-inline d-sm-none">How to</span> request an <span
+                                    class="d-none d-sm-inline">OTC?</span><span
+                                    class="gradient-text-1 d-inline d-sm-none">OTC?</span>
+                            </h2>
+                        </div>
+
+                        <div
+                            class="col-sm-12 col-lg-12 d-grid d-sm-flex justify-content-start justify-content-sm-around blocks align-items-start p-3 p-md-5 mx-auto">
+                            <div
+                                class="block d-grid d-sm-flex d-sm-flex flex-column justify-content-start justify-content-sm-center align-items-center">
+                                <div class="block-img">
+                                    <img src="images/step-1.svg" alt="">
+                                </div>
+                                <div class="block-detail text-start text-sm-center">
+                                    <p class="block-title">Step 1</p>
+                                    <p class="block-content">Submit OTC request</p>
+                                </div>
+                            </div>
+                            <div
+                                class="block d-grid d-sm-flex d-sm-flex flex-column  justify-content-start justify-content-sm-center align-items-center">
+                                <div class="block-img">
+                                    <img src="images/step-2.svg" alt="">
+                                </div>
+                                <div class="block-detail text-start text-sm-center">
+                                    <p class="block-title">Step 2</p>
+                                    <p class="block-content">OTC team replies via email with quote</p>
+                                </div>
+                            </div>
+                            <div
+                                class="block d-grid d-sm-flex d-sm-flex flex-column  justify-content-start justify-content-sm-center align-items-center">
+                                <div class="block-img">
+                                    <img src="images/step-3.svg" alt="">
+                                </div>
+                                <div class="block-detail text-start text-sm-center">
+                                    <p class="block-title">Step 3</p>
+                                    <p class="block-content">Approve or Deny</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section #3 Choose -->
+            <section class="content-3 choose px-4 py-8 pb-8 pb-md-14 py-md-12 position-relative">
+                <img src="images/purple-comet.svg" alt="" class="purple-comet position-absolute d-none d-md-block">
+                <img src="images/red-comet.svg" alt="" class="position-absolute red-comet d-none d-md-block">
+                <div class="container-fluid">
+                    <div class="row justify-content-center text-left text-sm-center">
+                        <h2 class="heading-2 text-dark">
+                            Choose according to <span class="gradient-text-1 d-block d-sm-inline">your
+                                needs</span>
+                        </h2>
+                        <p class="body-content pb-2">CoinSpot provides an automated OTC service that is available 24/7.
+                            So
+                            now you can get a quote at any time outside of the
+                            OTC consultants working hours.</p>
+                    </div>
+                    <div class="hero-table table-responsive">
+                        <table class="table d-none d-md-table">
+                            <thead>
+                                <tr>
+                                    <th scope="col" class="first">OTC<br>options</th>
+                                    <th scope="col">Availability</th>
+                                    <th scope="col">Minimum<br> amount (in AUD)</th>
+                                    <th scope="col">Avg. turnaround<br> time</th>
+                                    <th scope="col">Time to accept<br> the quote</th>
+                                    <th scope="col"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="otc">
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <img src="images/Consultant.svg" class="otc-img">
+                                                    </td>
+                                                    <td>
+                                                        <span class="otc-title">Order Enquiry</span>
+
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                    <td class="">9 am to 5 pm</td>
+                                    <td class="">25,000</td>
+                                    <td class="">Within 24 hours(working days)</td>
+                                    <td class="">24 hours after receiving the quote</td>
+                                    <td><a href=""><img src="images/close.svg" width="23px"></a></td>
+                                </tr>
+                                <tr>
+                                    <td class="otc">
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <img src="images/otc-request.svg" class="otc-img">
+                                                    </td>
+                                                    <td>
+                                                        <span class="otc-title">Order Enquiry</span>
+
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                    <td class="">24/7 service</td>
+                                    <td class="">50,000</td>
+                                    <td class="">Instant</td>
+                                    <td class="">10 minutes</td>
+                                    <td><a href=""><img src="images/close.svg" width="23px"></a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table class="table d-table d-md-none">
+                            <thead>
+                                <tr>
+                                    <th scope="col" class="first">OTC<br>options</th>
+                                    <th scope="col" class="first">
+                                        <table>
+                                            <tbody>
+                                                <tr
+                                                    class="tm-header d-flex flex-column justify-content-center align-items-center">
+                                                    <td>
+                                                        <img src="images/Consultant.svg" class="otc-img">
+                                                    </td>
+                                                    <td>
+                                                        <span class="otc-title">Order Enquiry</span>
+
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </th>
+                                    <th scope="col" class="first">
+                                        <table>
+                                            <tbody>
+                                                <tr
+                                                    class="tm-header d-flex flex-column justify-content-center align-items-center">
+                                                    <td>
+                                                        <img src="images/otc-request.svg" class="otc-img">
+                                                    </td>
+                                                    <td>
+                                                        <span class="otc-title">Instant</span>
+
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Availability</td>
+                                    <td class="">9 am to 5 pm</td>
+                                    <td class="">24/7 service</td>
+                                </tr>
+                                <tr>
+                                    <td>Minimum<br> amount (in AUD)</td>
+                                    <td class="">25,000</td>
+                                    <td class="">50,000</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Avg. turnaround<br> time</td>
+                                    <td class="">Within 24 hours(working days)</td>
+                                    <td class="">Instant</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">Time to accept<br> the quote</td>
+                                    <td class="">24 hours after receiving the quote</td>
+                                    <td class="">10 minutes</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section #4 Live Chat -->
+            <section class="content-4 chat py-5 px-4 px-md-0 pb-5 py-md-7 pt-5 position-relative">
+                <img src="images/plus.svg" alt="" class="position-absolute plus-1">
+                <img src="images/plus.svg" alt="" class="position-absolute plus-2">
+                <img src="images/plus.svg" alt="" class="position-absolute plus-3">
+                <img src="images/plus.svg" alt="" class="position-absolute plus-4">
+                <img src="images/plus.svg" alt="" class="position-absolute plus-5">
+                <img src="images/plus.svg" alt="" class="position-absolute plus-6">
+                <img src="images/otc-chat-purple-planet.svg" alt="" class="position-absolute purple-planet">
+
+
+                <div class="container-fluid">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-12 col-md-6 order-2 order-md-1 d-flex chat-screen-div position-relative">
+                            <img src="images/chatscreen-red.svg" class="chat-screen img-fluid">
+                        </div>
+                        <div
+                            class="col-sm-12 col-md-6 text-start text-white chat-text ps-2 ps-sm-5 order-1 order-md-2 py-4 pb-0">
+                            <h2 class="heading-2 mb-2 mb-sm-5">Need more <span
+                                    class="gradient-text-2 pt-0 pb-2">help?</span>
+                            </h2>
+                            <p class="section-content">
+                                Please submit your request via Zendesk - or start a conversation with us via Live Chat
+                                and our team will provide full
+                                instructions and advice.
+                            </p>
+                            <div class="img-text mt-4 mt-sm-2">
+                                <img src="images/Icon/Brand/Time2.svg" class="img-fluid time">&nbsp;&nbsp;<span
+                                    class="text-bold">5
+                                    min average reply rate</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section #5 FAQ -->
+            <section class="content-5 faq py-6 px-4 pb-8 pb-md-8 py-md-12 position-relative">
+                <div class="container-fluid">
+                    <div class="row justify-content-center align-items-center">
+                        <h2 class="heading-2 text-center">FAQ</h2>
+                        <!-- Accordion Wrapper -->
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        How to buy cryptocurrency?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas nulla turpis mi
+                                        elit auctor elit. Dui morbi gravida
+                                        adipiscing massa eu morbi aenean. Eu sit enim, molestie auctor ut lorem
+                                        venenatis cursus. Arcu egestas odio felis
+                                        sagittis a sollicitudin dictum fringilla viverra. Sit eget placerat cras eu mi
+                                        tempus, pretium.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        How to buy cryptocurrency?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas nulla turpis mi
+                                        elit auctor elit. Dui morbi gravida
+                                        adipiscing massa eu morbi aenean. Eu sit enim, molestie auctor ut lorem
+                                        venenatis cursus. Arcu egestas odio felis
+                                        sagittis a sollicitudin dictum fringilla viverra. Sit eget placerat cras eu mi
+                                        tempus, pretium.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        How to buy cryptocurrency?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas nulla turpis mi
+                                        elit auctor elit. Dui morbi gravida
+                                        adipiscing massa eu morbi aenean. Eu sit enim, molestie auctor ut lorem
+                                        venenatis cursus. Arcu egestas odio felis
+                                        sagittis a sollicitudin dictum fringilla viverra. Sit eget placerat cras eu mi
+                                        tempus, pretium.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Accordion Wrapper -->
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- Section #6 Join -->
+            <section class="content-6 join-section py-8 py-md-12">
+                <img src="images/red-comet.svg" alt="" class="red-comet position-absolute">
+                <img src="images/purple-comet.svg" alt="" class="purple-comet position-absolute">
+                <img src="images/join-planet.svg" alt="" class="purple-test-2 position-absolute">
+
+                <div class="container-fluid">
+                    <div class="row justify-content-center align-items-center text-center">
+                        <h2 class="heading-2 join-text text-white">
+                            Join <span class="gradient-text-2">1 million</span> others <br>and start earning
+                        </h2>
+                        <div class="join-form">
+                            <form action="" method="POST" class="needs-validation">
+                                <div class="form-group">
+                                    <div class="input-group justify-content-center justify-content-md-start">
+                                        <input type="email" class="form-control signup-input" id="join-input"
+                                            placeholder="Enter your email address" required="">
+                                        <div class="invalid-feedback">
+                                            Please enter your email address
+                                        </div>
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-primary" type="submit" id="join-btn">Get
+                                                started</button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="logos d-none d-lg-flex flex-column justify-content-center align-items-center  py-5 pe-5 ps-9">
+                <img src="images/Marketing/logo-footer.svg" class="img-fluid pb-4" />
+                <img src="images/Marketing/blockchain-certificate.svg" class="img-fluid py-4" />
+                <img src="images/Marketing/Sci.svg" class="img-fluid py-4" />
+            </div>
+            <div
+                class="d-none d-lg-grid justify-content-around align-items-start py-5 footer-section text-white flex-wrap px-5">
+
+                <div class="px-3 section-1">
+                    <p class="menu">Products</p>
+                    <ul>
+                        <li><a href="" class="footer-link">Instant Buy / Sell</a></li>
+                        <li><a href="" class="footer-link">Instant Swap</a></li>
+                        <li><a href="" class="footer-link">CoinSpot Markets</a></li>
+                        <li><a href="" class="footer-link">CoinSpot Bundles</a></li>
+                        <li><a href="" class="footer-link">Multicoin Wallets</a></li>
+                        <li><a href="" class="footer-link">Over the Counter (OTC)</a></li>
+                        <li><a href="" class="footer-link">Self Managed Super (SMSF)</a></li>
+                        <li><a href="" class="footer-link">API</a></li>
+                        <li><a href="" class="footer-link">CoinSpot App</a></li>
+                    </ul>
+                </div>
+                <div class="px-3 section-2">
+                    <p class="menu">About</p>
+                    <ul>
+                        <li><a href="" class="footer-link">About CoinSpot</a></li>
+                        <li><a href="" class="footer-link">Security</a></li>
+                        <li><a href="" class="footer-link">Is CoinSpot Safe?</a></li>
+                        <li><a href="" class="footer-link">Reviews</a></li>
+                        <li><a href="" class="footer-link">Fees</a></li>
+                        <li><a href="" class="footer-link">Partners</a></li>
+                        <li><a href="" class="footer-link">Terms</a></li>
+                        <li><a href="" class="footer-link">Privacy</a></li>
+                        <li><a href="" class="footer-link">AML</a></li>
+                    </ul>
+                </div>
+                <div class="px-3 section-3">
+                    <p class="menu">Earn</p>
+                    <ul>
+                        <li><a href="" class="footer-link">Affiliate Program</a></li>
+                        <li><a href="" class="footer-link">Referral Program</a></li>
+                        <li><a href="" class="footer-link">Crypto Christmas</a></li>
+                    </ul>
+                </div>
+                <div class="px-3 section-4">
+                    <p class="menu">Learn</p>
+                    <ul>
+                        <li><a href="" class="footer-link">Learn with CoinSpot</a></li>
+                        <li><a href="" class="footer-link">How to buy Bitcoin</a></li>
+                        <li><a href="" class="footer-link">How to buy Ethereum</a></li>
+                        <li><a href="" class="footer-link">How to buy XRP</a></li>
+                        <li><a href="" class="footer-link">How to buy Litecoin</a></li>
+                        <li><a href="" class="footer-link">How to buy Bitcoin
+                                Cash</a></li>
+                        <li><a href="" class="footer-link">Beginners Guide to Crypto</a></li>
+                        <li><a href="" class="footer-link">News / Announcements</a></li>
+                    </ul>
+                </div>
+                <div class="px-3 section-5">
+                    <p class="menu">Support</p>
+                    <ul>
+                        <li><a href="" class="footer-link">Help Centre</a></li>
+                        <li><a href="" class="footer-link">Contact Support</a></li>
+                        <li><a href="" class="footer-link">Feedback</a></li>
+                        <li><a href="" class="footer-link">Submit Request</a></li>
+                        <li><a href="" class="footer-link">Protect Yourself Online</a></li>
+                        <li><a href="" class="footer-link">Request a Coin Listing</a></li>
+                    </ul>
+                </div>
+                <div class="px-3 section-6">
+                    <p class="menu">Community</p>
+                    <ul>
+                        <li><a href="" class="footer-link">Facebook</a></li>
+                        <li><a href="" class="footer-link">Twitter</a></li>
+                        <li><a href="" class="footer-link">Linkedin</a></li>
+                        <li><a href="" class="footer-link">Telegram</a></li>
+                        <li><a href="" class="footer-link">Reddit</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="d-grid d-lg-none footer-menus-mobile position-relative pt-3 pt-sm-5 px-5 ps-4 ps-sm-8">
+                <div class="menu-cs">
+                    <p class="menu">Coinspot</p>
+                    <ul>
+                        <li><a href="">Buy Bitcoin</a></li>
+                        <li><a href="">Bitcoin Trading</a></li>
+                        <li><a href="">Buy All Markets</a></li>
+                        <li><a href="">Buy DeFi</a></li>
+                        <li><a href="">Multicoin Wallet</a></li>
+                        <li><a href="">Affiliate Program</a></li>
+                        <li><a href="">Referrals</a></li>
+                        <li><a href="">Press Enquiries</a></li>
+                        <li><a href="">Fees</a></li>
+                        <li><a href="">Mobile App</a></li>
+                        <li><a href="">Security</a></li>
+                    </ul>
+                </div>
+                <div class="menu-help">
+                    <p class="menu">Help</p>
+                    <ul>
+                        <li><a href="">Help Centre</a></li>
+                        <li><a href="">Contact Support</a></li>
+                        <li><a href="">Protect Yourself Online</a></li>
+                        <li><a href="">Account Recovery</a></li>
+                        <li><a href="">API Docs</a></li>
+                        <li><a href="">Complaints and Disputes</a></li>
+                        <li><a href="">Self Managed Super Funds</a></li>
+                        <li><a href="">Request a Coin</a></li>
+                    </ul>
+                </div>
+                <div class="menu-learn">
+                    <p class="menu">Learn</p>
+                    <ul>
+                        <li><a href="">How to buy Bitcoin</a></li>
+                    </ul>
+                </div>
+                <div class="menu-legal">
+                    <p class="menu">Legal</p>
+                    <ul>
+                        <li><a href="">Terms of Service</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">AML</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="d-block d-lg-none mobile-footer-logos position-relative z-3 px-4 px-sm-5 pb-5">
+                <img src="images/Marketing/logo-footer.svg" alt="" class="img-fluid pe-4 pb-4 cs-img">
+                <img src="images/Marketing/bc.png" alt="" class="img-fluid blockchain-img" width="154px">
+                <img src="images/Marketing/sci.svg" alt="" class="img-fluid px-4" width="132px">
+            </div>
+
+        </footer>
+
+        <div class="d-block d-lg-none mx-auto py-3 bg-white w-100 footer-login justify-content-center text-center">
+            <button type="button" class="btn btn-primary btn-sm">Register</button>
+            <button type="button" class="btn btn-outline-primary btn-sm">Login</button>
+        </div>
+
+
+
+        <!-- External Scripts -->
+
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Popper -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"
+            integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <!-- Bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+            crossorigin="anonymous"></script>
+
+        <!-- Custom JS -->
+        <script type="text/javascript" src="js/app.js"></script>
+
+        <!-- Owl Carousel -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+            integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </body>
+
+</html>

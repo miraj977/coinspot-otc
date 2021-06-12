@@ -1,0 +1,16 @@
+<svg width="62" height="62" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<ellipse cx="23.0231" cy="39.1746" rx="22.7036" ry="22.7036" transform="rotate(-90 23.0231 39.1746)" fill="#0019EE"/>
+<ellipse cx="35.9088" cy="18.9255" rx="18.4083" ry="18.4083" transform="rotate(-90 35.9088 18.9255)" fill="url(#paint0_linear)" fill-opacity="0.7" style="mix-blend-mode:multiply"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M24.1895 23.6375H19.7504V28.0766H14.2014V50.2724H19.7504V54.7116H24.1895V50.2681C28.915 50.2614 31.8453 47.8057 31.8453 43.9215C31.8453 41.0604 29.7076 38.8436 26.7689 38.6283V38.3508C29.0462 38.0135 30.7832 35.9653 30.7832 33.6126C30.7832 30.261 28.3179 28.1894 24.1895 28.0939V23.6375ZM18.8484 37.2757V31.6313H22.7239C24.9391 31.6314 26.2137 32.6932 26.2137 34.4622C26.2137 36.2467 24.8462 37.2757 22.3381 37.2757H18.8484ZM18.8484 40.4143V46.7175H22.9841C25.6609 46.7175 27.1067 45.5935 27.1067 43.5182C27.1067 41.4873 25.6124 40.4143 22.8757 40.4143H18.8484Z" fill="white"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="35.9088" y1="0.51717" x2="35.9088" y2="37.3337" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6EF3E8"/>
+<stop offset="1" stop-color="#6EF3E8" stop-opacity="0.3"/>
+</linearGradient>
+<clipPath id="clip0">
+<rect width="61.361" height="61.361" fill="white" transform="translate(0.31958 0.51709)"/>
+</clipPath>
+</defs>
+</svg>
